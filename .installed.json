@@ -1,0 +1,91 @@
+{
+  "agency_name": "TalentFlow Command AI",
+  "agency_type": "Autonomous Recruitment & Technical Talent Operations Agency",
+  "version": "1.0.0",
+  "architecture": "7+1 Autonomous AI Agents",
+  "ledger_columns": [
+    "Task ID",
+    "Timestamp",
+    "Assigned By",
+    "Agent Name",
+    "Task Description",
+    "Priority",
+    "Status",
+    "Output / Result Link",
+    "Completion Time"
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Alex",
+      "role": "Project Manager (Chief of Staff)",
+      "responsibilities": "Audits all 7 employees, assigns and tracks tasks, syncs Google Sheet ledger, sends daily email bulletin, answers Boss chat from real data.",
+      "tools": ["SQLite", "Google Sheets API", "SMTP Email", "Boss Chat Engine"],
+      "kpi": "100% ledger sync & on-time SLA",
+      "reports_to": "Boss"
+    },
+    {
+      "id": 2,
+      "name": "Maya",
+      "role": "Talent & Market Researcher",
+      "responsibilities": "Maps target engineering talent pools, compensation benchmarks, and hiring market intelligence.",
+      "tools": ["Web Intelligence", "Google Sheets"],
+      "kpi": "Talent briefs & qualified leads per day",
+      "reports_to": "Alex (PM)"
+    },
+    {
+      "id": 3,
+      "name": "Liam",
+      "role": "Resume & Skill Evaluator",
+      "responsibilities": "Parses candidate resumes and GitHub portfolios, scores technical fit against structured rubrics.",
+      "tools": ["Resume Parser", "Scoring Rubric", "Google Sheets"],
+      "kpi": "Resumes screened per day",
+      "reports_to": "Alex (PM)"
+    },
+    {
+      "id": 4,
+      "name": "Elena",
+      "role": "Outreach & Content Writer",
+      "responsibilities": "Drafts personalized candidate outreach sequences, job descriptions, and LinkedIn hiring posts.",
+      "tools": ["Content Templates", "LinkedIn Publisher", "Google Sheets"],
+      "kpi": "Posts & outreach sequences published per day",
+      "reports_to": "Alex (PM)"
+    },
+    {
+      "id": 5,
+      "name": "Noah",
+      "role": "Pipeline & Outreach Coordinator",
+      "responsibilities": "Executes multi-step candidate outreach sequences, tracks stage transitions, flags stalled leads.",
+      "tools": ["Outreach Matrix", "Calendar Sync", "Google Sheets"],
+      "kpi": "Outreach touches & stage conversions per day",
+      "reports_to": "Alex (PM)"
+    },
+    {
+      "id": 6,
+      "name": "Zoe",
+      "role": "Compliance & Quality Auditor",
+      "responsibilities": "Audits job posts and outreach copy for compliance/clarity, verifies ledger links and data accuracy.",
+      "tools": ["QA Checklist", "Link Validator", "Google Sheets"],
+      "kpi": "Audits completed & blockers resolved",
+      "reports_to": "Alex (PM)"
+    },
+    {
+      "id": 7,
+      "name": "Raj",
+      "role": "Candidate Support & Triage",
+      "responsibilities": "Triages inbound candidate and hiring-manager questions, resolves scheduling issues, escalates blockers.",
+      "tools": ["Ticket Classifier", "FAQ Knowledge Base", "Google Sheets"],
+      "kpi": "Tickets resolved & response SLA",
+      "reports_to": "Alex (PM)"
+    },
+    {
+      "id": 8,
+      "name": "Sofia",
+      "role": "Hiring Analytics & KPI Specialist",
+      "responsibilities": "Aggregates daily and weekly funnel KPIs, computes completion times, generates executive summaries.",
+      "tools": ["Pandas", "SQLite Analytics", "Google Sheets"],
+      "kpi": "Daily & weekly KPI reports delivered",
+      "reports_to": "Alex (PM)"
+    }
+  ]
+}
